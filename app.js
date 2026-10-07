@@ -1,5 +1,9 @@
-const API_URL = 'http://localhost:8081/api/tickets';
+/*const API_URL = 'http://localhost:8081/api/tickets';
 const USER_API_URL = 'http://localhost:8081/api/users';
+*/
+
+const API_URL = 'https://support-desk-ticket-router-production.up.railway.app/api/tickets';
+const USER_API_URL = 'https://support-desk-ticket-router-production.up.railway.app/api/users';
 
 let allTickets = [];
 let availableAgents = [];
